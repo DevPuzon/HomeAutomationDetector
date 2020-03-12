@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+   <androidx.core.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginBottom="?attr/actionBarSize">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <androidx.cardview.widget.CardView
+               android:layout_width="120dp"
+               android:layout_height="120dp"
+               app:cardCornerRadius="60dp"
+               app:cardElevation="8dp"
+               android:layout_gravity="center_horizontal"
+               android:layout_marginTop="50dp">
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/icon"
+                   android:layout_gravity="center"/>
+           </androidx.cardview.widget.CardView>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="#FFF"
+               android:layout_marginTop="15dp"
+               android:padding="10dp"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:textStyle="bold"
+                   android:text="Introduction : "
+                   android:textColor="@color/colorPrimary"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="18sp"
+                   android:layout_marginLeft="15dp"
+                   android:text="\t \t\tBanana is one of the most widely grown tropical fruits, cultivated over 130 countries, along the tropics and subtropics of Capricorn. It is the second largest produced fruit after citrus, contributing about 16% of the world’s total fruit production and the fourth most important staple food crops in the world after rice, wheat, and maize. According to FAOSTAT (2004), the major banana producing countries that accounted for about 75% of total banana production are located in the developing world.
+\n \t \t\t Maturity stage of fresh banana fruit is an important factor that affects the fruit quality during ripening and marketability after ripening. The ability to identify maturity of fresh banana fruit will be a great support for farmers to optimize harvesting phase which helps to avoid harvesting either under-matured or over-matured banana. This study attempted to use image processing technique to detect the maturity stage of fresh banana fruit by its color and size value of their images precisely.
+\n \t \t\tDigital image processing simply means processing digital image, it is also said that it is the use of computer algorithms in order to get enhanced image by extracting some useful information. Images can be imported via image acquisition tools, the system can analyze and manipulate the image and can also output in result or a report based on analyzing that image.
+"
+                   android:textColor="@color/colorPrimary"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="#FFF"
+               android:layout_marginTop="15dp"
+               android:padding="10dp"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:textStyle="bold"
+                   android:text="General Objectives : "
+                   android:textColor="@color/colorPrimary"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="18sp"
+                   android:layout_marginLeft="15dp"
+                   android:text="\t \t \t   The general objective of this proposed Application is to design and develop a banana fruit maturity detector that will help big and small sector in the Banana Industry to determine the maturity of the bananas for exportation and local markets, to help the Banana Growers to increase their sales and productivity with the help of this application."
+                   android:textColor="@color/colorPrimary"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="#FFF"
+               android:layout_marginTop="15dp"
+               android:padding="10dp"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:textStyle="bold"
+                   android:text="Specific Objectives : "
+                   android:textColor="@color/colorPrimary"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="18sp"
+                   android:layout_marginLeft="15dp"
+                   android:text="\t \t \t  For the proposed application become real, the following are the specific objectives. To develop application that can detect banana maturity in a short time. To develop application that is efficient and has a reliable result. To develop application that can lessen the interaction between the bananas and the quality inspector. To develop application that can help increase the sales and productivity of the banana growers and the banana Industry."
+                   android:textColor="@color/colorPrimary"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="#FFF"
+               android:layout_marginTop="15dp"
+               android:padding="10dp"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:textStyle="bold"
+                   android:text="Scope : "
+                   android:textColor="@color/colorPrimary"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="18sp"
+                   android:layout_marginLeft="15dp"
+                   android:text="\t \t \t  The proposed study has its own scope and limitations; where the scope talks about the coverage and specific functionalities of the application, while the limitation is on the restrictions of the application.
+\n •	Detect the maturity of the banana fruit if it is under-mature, mature, or over-mature.
+\n •	It can determine the variety of the banana if it is Cavendish, Lakatan, Latundan, or Saba.
+\n •	The Application can determine the length of days when the banana ripens.
+\n •	The users of the proposed Application will be banana growers and the farm workers of the community.
+\n •	It is an Offline application.
+\n •	It is available on android phones.
+\n •	It can add Records
+\n •	It can delete Records
+"
+                   android:textColor="@color/colorPrimary"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="#FFF"
+               android:layout_marginTop="15dp"
+               android:padding="10dp"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:textStyle="bold"
+                   android:text="Limitation : "
+                   android:textColor="@color/colorPrimary"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="18sp"
+                   android:layout_marginLeft="15dp"
+                   android:text="\t \t \t  On the other hand, the system possesses have the following limitations,
+\n •	It cannot be accessed online,
+\n •	It can only identify 4 banana variety,
+\n •	It does not store banana images,
+\n •	It is not available on web nor on PC.
+\n •	It is not a multiple user application
+
+"
+                   android:textColor="@color/colorPrimary"/>
+           </LinearLayout>
+       </LinearLayout>
+   </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        android:layout_alignParentBottom="true"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/navigation"
+        app:itemIconTint="@color/colorPrimary"
+        app:itemTextColor="@color/colorPrimary" />
+</RelativeLayout>

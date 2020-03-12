@@ -1,0 +1,6 @@
+aircon
+electric fan
+light
+tv
+water
+zz
